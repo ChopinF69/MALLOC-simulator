@@ -344,8 +344,8 @@ int main(void)
 	struct um_t mem_used;
 	mem_used.list = NULL;
 	struct info_t info;
-
-	while (69) {
+	// Bravo roberto imi place tot asa , am facut din 69 -> 1
+	while (1) {
 		scanf("%s", command);
 		if (strcmp(command, "INIT_HEAP") == 0) {
 			scanf("%p%ld%ld%ld", &head_add, &list_count, &bytes_per_list, &c);
